@@ -1,83 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!--FONT AWESOME-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="qzstyle.css" />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Quickza - Home</title>
 
-  <style>
-      
-  </style>
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css" />
+
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="qzstyle.css" />
 </head>
 <body>
   <header>
-   <nav class="navbar">
-  <div class="logo">Quickza</div>
-
-  <!-- Hamburger icon -->
-  <div class="menu-icon" onclick="toggleMenu()">☰</div>
-
-  <ul class="nav-links" id="navMenu">
-    <li><a href="#hero">Home</a></li>
-    <li><a href="#save">Savings</a></li>
-    <li><a href="#About">About US</a></li>
-    <li><a href="#Contact">Contact US</a></li>
-  </ul>
-</nav>
+    <nav class="navbar">
+      <div class="logo">Quickza</div>
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links" id="navMenu">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#save">Savings</a></li>
+        <li><a href="#About">About Us</a></li>
+        <li><a href="#footer">Contact Us</a></li>
+      </ul>
+    </nav>
   </header>
-<section class="hero">
+
+  <section class="hero" id="hero">
     <h1>Never Say No to <span>Delivery Again</span></h1>
   </section>
+
   <section class="content1">
     <div class="content-left">
-        <img src="quickza-delivery.png" alt="Quickza Delivery" />
+      <img src="quickza-delivery.png" alt="Quickza Delivery" />
     </div>
-
     <div class="content-right">
-        <h2>Quickza helps restaurants deliver faster,<br> smarter, and without the overhead.</h2>
-        <p>Keep your customers happy and your operations flexible.</p>
+      <h2>Quickza helps restaurants deliver faster,<br />smarter, and without the overhead.</h2>
+      <p>Keep your customers happy and your operations flexible.</p>
     </div>
-</section>
-<section id="About" class="section-dark">
+  </section>
+
+  <section id="About" class="section-dark">
     <h2>What We Do</h2>
     <h3>A Smarter Way to Deliver</h3>
-    <p>Quickza is a third-party delivery solution designed to help restaurants like yours offer fast, reliable deliveries—without the hassle of managing your own fleet.
-When your customer asks for delivery, you don’t have to say no. Quickza lets you keep that sale, delight your customer, and even open a new revenue stream—all at a minimal cost.</p>
-    
-    <ul><b> Whether you have your own drivers or none at all, Quickza fills the gaps:</b>
+    <p>
+      Quickza is a third-party delivery solution designed to help restaurants like yours offer fast, reliable deliveries—without the hassle of managing your own fleet.
+      When your customer asks for delivery, you don’t have to say no.
+      Quickza lets you keep that sale, delight your customer, and even open a new revenue stream—all at a minimal cost.
+    </p>
+    <ul>
+      <strong>Whether you have your own drivers or none at all, Quickza fills the gaps:</strong>
       <li>No need to schedule drivers around busy or slow periods</li>
       <li>No more overstaffing or paying hourly wages unnecessarily</li>
       <li>Use us only when you need us. Simple.</li>
     </ul>
   </section>
+
   <section class="how-it-works" id="how">
     <div class="text-section">
       <h1>How It Works</h1>
       <h3>Flexible, On-Demand Delivery at Your Fingertips</h3>
       <ol>
-        <li><strong>Your Customer Places an Order:</strong> When a customer calls or orders for delivery, you simply forward the request through our software.</li>
-        <li><strong>We Dispatch a Driver:</strong> You choose from available time slots and our dispatch team sends out a trained, professional driver immediately.</li>
-        <li><strong>We Handle the Delivery:</strong> Our drivehow rs arrive with thermal bags and take care of all types of payments—cash, card, or prepaid.</li>
-        <li><strong>You Get Daily Reports:</strong> Track everything—deliveries, transactions, and earnings—in one easy dashboard.</li>
+        <li><strong>Your Customer Places an Order:</strong> When a customer asks for delivery, you forward it through our software.</li>
+        <li><strong>We Dispatch a Driver:</strong> Choose a time slot and our dispatch team sends a trained driver immediately.</li>
+        <li><strong>We Handle the Delivery:</strong> Drivers use thermal bags and accept all payment types.</li>
+        <li><strong>You Get Daily Reports:</strong> Track deliveries, payments, and earnings in one dashboard.</li>
       </ol>
     </div>
     <div class="image-section">
       <img src="how-it-works-graphic.png" alt="How it works flowchart" />
     </div>
   </section>
-<section class="image-grid-section">
+
+  <section class="image-grid-section">
     <div class="image-grid-4">
       <div class="image-card">
         <img src="Dispatch.png" alt="Dispatch - Customer support" />
@@ -97,6 +94,7 @@ When your customer asks for delivery, you don’t have to say no. Quickza lets y
       </div>
     </div>
   </section>
+
   <section id="save" class="save-more-section">
     <div class="text-content">
       <h1>Save More with Quickza – Here's How</h1>
@@ -104,12 +102,12 @@ When your customer asks for delivery, you don’t have to say no. Quickza lets y
         <li>You save on commission fees</li>
         <li>Customers save on service charges</li>
         <li>More money stays in the local economy</li>
-        <li>Everyone wins. Supporting local doesn’t have to cost more—Quickza makes it easy and fair.</li>
+        <li>Everyone wins</li>
       </ul>
     </div>
 
     <div class="table-content">
-      <p>Let’s break down how typical food delivery apps stack up against Quickza for a $45 order:</p>
+      <p>Comparison for a $45 order:</p>
       <table>
         <thead>
           <tr>
@@ -119,121 +117,52 @@ When your customer asks for delivery, you don’t have to say no. Quickza lets y
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Order Value</td>
-            <td>$45.00</td>
-            <td>$45.00</td>
-          </tr>
-          <tr>
-            <td>Platform Commission</td>
-            <td>25% = $11.25</td>
-            <td>$0</td>
-          </tr>
-          <tr>
-            <td>Service Fee</td>
-            <td>Up to $4.00</td>
-            <td>$0</td>
-          </tr>
-          <tr>
-            <td>Delivery Fee</td>
-            <td>$0.99–$4.99</td>
-            <td>Flat Fee</td>
-          </tr>
-          <tr>
-            <td>Who Pays?</td>
-            <td>Restaurant and Customer</td>
-            <td>Restaurant (can be passed to a customer)</td>
-          </tr>
-          <tr>
-            <td>Who Benefits?</td>
-            <td>App platform</td>
-            <td>Local restaurant & customer</td>
-          </tr>
+          <tr><td>Order Value</td><td>$45.00</td><td>$45.00</td></tr>
+          <tr><td>Platform Commission</td><td>25% = $11.25</td><td>$0</td></tr>
+          <tr><td>Service Fee</td><td>$0.99–$4.99</td><td>$0</td></tr>
+          <tr><td>Delivery Fee</td><td>$0.99–$4.99</td><td>Flat Fee</td></tr>
+          <tr><td>Who Pays?</td><td>Restaurant & Customer</td><td>Restaurant</td></tr>
+          <tr><td>Who Benefits?</td><td>App Platform</td><td>Local Restaurant & Customer</td></tr>
         </tbody>
       </table>
     </div>
   </section>
-  <section class="why-quickza">
-    <h1>Why Choose Quickza?</h1>
-    <ul>
-      <li>✅ <strong>On-Demand Fleet</strong> – Tap into a network of trained drivers anytime</li>
-      <li>✅ <strong>Cost-Effective</strong> – No fixed wages, only pay when you use</li>
-      <li>✅ <strong>Scalable</strong> – Handle busy periods without overstaffing</li>
-      <li>✅ <strong>Customer Satisfaction</strong> – Fast, reliable delivery = loyal customers</li>
-      <li>✅ <strong>Simple to Use</strong> – Integrated software with scheduling & reporting tools</li>
-    </ul>
-  </section>
+
   <section id="Contact" class="work-with-us">
-    <!-- <div class="text-section">
-      <h2>Quickza: Delivery When You Need It— No Driver Needed</h2>
-      <p>Here is a Simple Example: 
-Restaurant Hours: 12 PM – 12 AM
- Hiring a full-time driver for 12 hours a day isn’t always practical, especially when deliveries are unpredictable.
-With Quickza, you don’t need one.
-Simply forward your delivery orders to us, and we’ll handle the rest — fast, reliable, and at a flat rate.</p>
- ✅ No hourly wages <br>
- ✅ No scheduling hassles<br>
- ✅ Delivery is available all day<br>
-      <p>Pay only when you use it.</p>
-    </div> -->
     <div class="text-section quickza-info">
-  <h2>Quickza: Delivery When You Need It— No Driver Needed</h2>
-
-  <p>
-    Here is a Simple Example:<br>
-    Restaurant Hours: 12 PM – 12 AM<br>
-    Hiring a full-time driver for 12 hours a day isn’t always practical, 
-    especially when deliveries are unpredictable.<br>
-    With Quickza, you don’t need one.<br>
-    Simply forward your delivery orders to us, and we’ll handle the rest — 
-    fast, reliable, and at a flat rate.
-  </p>
-
-  <ul class="check-list">
-    <li> No hourly wages</li>
-    <li> No scheduling hassles</li>
-    <li> Delivery is available all day</li>
-  </ul>
-
-  <p class="pay-note">Pay only when you use it.</p>
-</div>
+      <h2>Quickza: Delivery When You Need It — No Driver Needed</h2>
+      <p>
+        Restaurant Hours: 12 PM – 12 AM<br />
+        Hiring a full-time driver isn’t always practical.
+        With Quickza, simply forward your delivery orders to us and we handle the rest.
+      </p>
+      <ul class="check-list">
+        <li>No hourly wages</li>
+        <li>No scheduling hassles</li>
+        <li>Delivery available all day</li>
+      </ul>
+      <p class="pay-note">Pay only when you use it.</p>
+    </div>
     <div class="image-section">
-      <img src="Dispatch.png" alt="Customer support agent wearing headset" />
+      <img src="Dispatch.png" alt="Customer support agent" />
     </div>
   </section>
-    <footer>
-  <div class="top_header">
-    <section>
-      <span><i class="fa fa-map-marker"></i></span>
-      <span>Brampton, Ontario, Canada</span>
-    </section>
-    <section>
-      <span><i class="fa fa-phone"></i></span>
-      <span>647-966-2024</span>
-    </section>
-    <section>
-      <span><i class="fa fa-envelope"></i></span>
-      <span>Quickza8@gmail.com</span>
-    </section>
-  </div>
-  <span class="border-shape"></span>
-  <div class="bottom_content">
-    <!-- <section class="social">
-      <a href="#"><i class="fa fa-facebook"></i>Facebook</a>
-      <a href="#"><i class="fa fa-instagram"></i>Instagram</a>
-      <a href="#"><i class="fa fa-twitter"></i>Twitter</a>
-      <!-- <a href="#"><i class="fa fa-telegram"></i></a> -->
-    <!-- </section>    -->
-  </div>
-  <div class="copyright">
-    Created By Mrs.Gagandeep Kaur CopyRight 2025
-  </div>
-</footer>
-    <script src = "script.js"></script>
 
+  <footer>
+    <div class="top_header" id="footer">
+      <section><i class="fa fa-map-marker"></i> Brampton, Ontario, Canada</section>
+      <section><i class="fa fa-phone"></i> 647-966-2024</section>
+      <section><i class="fa fa-envelope"></i> Quickza8@gmail.com</section>
+    </div>
+    <span class="border-shape"></span>
+    <div class="copyright">
+      Created By Mrs. Gagandeep Kaur — Copyright 2025
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-<!-- Linking external JS file -->
-<script src="script.js"></script>
-</body>
-</html>
+
