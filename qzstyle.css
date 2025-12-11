@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: #f97316;
+  background: #f5f5f5;
   color: black;
   padding-top: 80px;
 }
@@ -19,7 +19,7 @@ body {
   width: 100%;
   z-index: 9999;
 }
-
+F
 .logo {
   font-size: 20px;
   font-weight: bold;
@@ -91,7 +91,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 40px;
-  background: #ff6a00;
+  background: #fff;
   gap: 40px;
 }
 
@@ -217,7 +217,7 @@ body {
   align-items: flex-start;
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #f97316;
+  background: #fff;
   color: #222;
 }
 
@@ -345,7 +345,7 @@ body {
   padding: 70px;
   gap: 60px;
   justify-content: center;
-  background: #f97316;
+  background: #fff;
   color: #222;
   font-family: Arial, sans-serif;
 }
@@ -491,7 +491,8 @@ body {
   flex-wrap: wrap;
   padding: 40px 20px;
   justify-content: center;
-  background-color: white;
+  background-color: black;
+  color: #fff;
 }
 
 .text-section h2 {
@@ -602,8 +603,8 @@ body {
 /* BIG FOOTER */
 footer {
   width: 100%;
-  background: #121619;
-  color: #fff;
+  background: #fff;
+  color: #000;
 }
 
 .top_header {
